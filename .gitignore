@@ -1,0 +1,8 @@
+# Raw and derived datasets are too large for GitHub (>100MB limit) — kept locally only.
+creditcard_2023.csv
+processed_creditcard_2023.csv
+*.zip
+
+# OS / editor cruft
+.DS_Store
+.claude/
