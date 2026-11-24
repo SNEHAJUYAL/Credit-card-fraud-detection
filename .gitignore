@@ -6,3 +6,11 @@ processed_creditcard_2023.csv
 # OS / editor cruft
 .DS_Store
 .claude/
+
+# Raw data and large artefacts (see data/README.md)
+data/*
+!data/README.md
+__pycache__/
+*.pyc
+*.npz.tmp
+results/*.log
